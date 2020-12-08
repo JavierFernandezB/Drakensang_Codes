@@ -12,8 +12,8 @@ source = requests.get(
 soup = BeautifulSoup(source, 'html.parser')
 article = soup.find_all('ul')[17]
 article = article.text
-USER = "javierpro"
-PASSWORD = "lordjavier1"
+USER = ""
+PASSWORD = ""
 if not exists(r'C:\Users\javier\Documents\code\python\drakensang_code\\oldcodes'):
     open(r'C:\Users\javier\Documents\code\python\drakensang_code\oldcodes', 'x').close()
 
